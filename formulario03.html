@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Proyecto Gatunos -->
+    <!--  -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatunos web</title>
+    <!-- Cargar Bootstrap -->
+    <link rel="stylesheet" href="css_bootstrap/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/css_03.css" >
+    <!-- Cargar CSS Formulario -->
+    <link rel="stylesheet" href="css/formulario03.css" >
+
+    <!-- Configurar Estilos -->
+    <!-- <style> 
+
+    </style>     -->
+
+
+    <!-- Cargar mod direction aware addon (galeria imagenes) -->
+    <link href='http://fonts.googleapis.com/css?family=Alegreya+SC:700,400italic' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" type="text/css" href="direction_aware_mit/DirectionAwareHoverEffect-master/css/demo.css"/>
+    <link rel="stylesheet" type="text/css" href="direction_aware_mit/DirectionAwareHoverEffect-master/css/style.css" />
+
+ 
+    <!-- Cargar carousel: minimal card slider jquery addon -->
+    <!-- Cargar carousel: css -->
+    <link rel="stylesheet" href="Minimal-Card-Slider-master/dist/style.css"  >
+
+</head>
+
+
+<!-- Cuerpo  style="background:black;"    -->
+<body style="background:black";> 
+
+<!--1- Logo + info  -->
+<nav class="navbar navbar-expand-sm bg-dark">
+
+    <div class="container-fluid">
+      <!--Logo -->
+      <div class="navbar-nav">
+        <div class="nav-item">
+            <img  src="assets/logo_gatunos2.png" style="width: 50px; height:50px;" alt="logo_imagen" title="Click aquí para volver a home"> 
+        </div>
+        <div class="nav-item">
+            <img  src="assets/gatunos_texto_logo.png" style=" height:50px;" alt="logo_nombre" title="Click aquí para volver a home"> 
+        </div>
+      <!-- Links 
+        <div class="nav-item">
+          <a class="nav-link" href="#">Link 3</a>
+        </div>
+    -->
+      </div>
+    </div>
+</nav>
+<!-- Descripcción-->
+  <div class="container-fluid bg-dark" >
+        <h5 style="color:white;">Somos una fundación dedicada a la adopción de gatitos </h5>
+  </div>
+
+<!--2- Thnmbnails  -->
+
+<div class="container-fluid bg-dark" >
+  <div class="row m-2">
+      
+          <figure class="thumbnail"  style="width: 150px; margin: 5px; border: solid #32a1ce; padding: 0px; background-color: #32a1ce;">
+              <a href="index.html">
+          <img  id="pasar_sobre_imagen" src="assets/menus_gatos/home.jpg" alt="Inicio" title="Click aquí para ir a home">        
+              </a>
+              <a href="index.html">
+                  <button type="button" style="width:100%;" class="btn btn-primary btn-lg">Inicio
+                  </button>
+              </a>
+          </figure>
+
+          <figure class="thumbnail"  style="width: 150px; margin: 5px; border: solid #32a1ce; padding: 0px; background-color: #32a1ce;">
+              <a href="formulario03.html">
+          <img  id="pasar_sobre_imagen" src="assets/menus_gatos/adopta_formulario.jpg" alt="formulario inscripción" title="Click aquí para ir a formulario de inscripción">        
+              </a>
+              <a href="formulario03.html">
+                  <button type="button" style="width:100%;" class="btn btn-primary btn-lg">Inscripción
+                  </button>
+              </a>
+          </figure>
+
+          <figure class="thumbnail"  style="width: 150px; margin: 5px; border: solid #32a1ce; padding: 0px; background-color: #32a1ce;">
+              <a href="galeria_img.html">
+          <img  id="pasar_sobre_imagen" src="assets/menus_gatos/galeria_fotos.jpg " alt="Galería de fotos" title="Click aquí para ir a la galería de fotos">        
+              </a>
+              <a href="galeria_img.html">
+                  <button type="button" style="width:100%;" class="btn btn-primary btn-lg">Galeria
+                  </button>
+              </a>
+          </figure>
+
+          <figure class="thumbnail"  style="width: 150px; margin: 5px; border: solid #32a1ce; padding: 0px; background-color: #32a1ce;">
+              <a href="#">
+          <img  id="pasar_sobre_imagen" src="assets/menus_gatos/foro_preguntas.jpg" alt="foro" title="Click aquí para volver ir a foro">        
+              </a>
+              <a href="#">
+                  <button type="button" style="width:100%;" class="btn btn-primary btn-lg">Foro
+                  </button>
+              </a>
+          </figure>
+
+          <figure class="thumbnail"  style="width: 150px; margin: 5px; border: solid #32a1ce; padding: 0px; background-color: #32a1ce;">
+              <a href="#">
+          <img  id="pasar_sobre_imagen" src="assets/menus_gatos/buscar.jpg" alt="buscar" title="Click aquí para ir a buscar">        
+              </a>
+              <a href="#">
+                  <button type="button" style="width:100%;" class="btn btn-primary btn-lg">Buscar
+                  </button>
+              </a>
+          </figure>
+
+          <figure class="thumbnail"  style="width: 150px; margin: 5px; border: solid #32a1ce; padding: 0px; background-color: #32a1ce;">
+              <a href="#">
+          <img  id="pasar_sobre_imagen" src="assets/menus_gatos/contactanos.jpg" alt="Contactanos" title="Click aquí para ir a contactanos">        
+              </a>
+          <a href="#">
+              <button type="button" style="width:100%;" class="btn btn-primary btn-lg">Blog
+              </button>
+          </a>
+          </figure>
+
+          <figure class="thumbnail"  style="width: 150px; margin: 5px; border: solid #32a1ce; padding: 0px; background-color: #32a1ce;">
+              <a href="#">
+          <img  id="pasar_sobre_imagen" src="assets/menus_gatos/contactanos.jpg" alt="Contactanos" title="Click aquí para ir a contactanos">        
+              </a>
+          <a href="#">
+              <button type="button" style="width:100%;" class="btn btn-primary btn-lg">Contacto
+              </button>
+          </a>
+          </figure>
+
+          <figure class="thumbnail"  style="width: 150px; margin: 5px; border: solid #32a1ce; padding: 0px; background-color: #32a1ce;">
+              <a href="#">
+          <img  id="pasar_sobre_imagen" src="assets/menus_gatos/adopta_formulario2.jpg" alt="Intranet" title="Click aquí para ir a la intranet">        
+              </a>
+          <a href="#">
+              <button type="button" style="width:100%;" class="btn btn-primary btn-lg">Intranet
+              </button>
+          </a>
+          </figure>
+
+  </div>
+</div>
+    <!-- ***** Formulario: plugin jquery  Validator  ****** -->
+
+    <div class="container-fluid bg-light">
+    <div class="row m-2">
+    <div class="col-md card border-bootstrap box-shadow mb-4">
+    <form id="mi-formulario" action="#" method="post">
+  
+        <!-- ejemplo nombre name="nombre" -->
+        <div class="mb-3">
+    
+          <label for="nombre" >Nombre</label>
+          <input type="text" name="nombre" class="form-control" placeholder="Tu nombre">
+        </div>
+
+        <!-- ejemplo apellido name="apellido" -->
+        <div class="mb-3">
+            <label for="apellido" >Apellido</label>
+            <input type="text" name="apellido" class="form-control" placeholder="Tu apellido">
+        </div>
+        <!-- Fecha nacinimeto antes 2001" -->
+
+        <div class=" row m-1">
+        <label for="rut">Fecha Nacimiento</label>
+            <div class=" col">
+                <label for="rut">Año (<2001)</label>
+                <input type="text" name="ano_nac" class="form-control" /> 
+              </div>
+            <div class=" col">
+            <label for="rut">Mes (1-12)</label>
+            <input type="text" name="mes_nac" class="form-control" /> 
+            </div>
+
+            <div class=" col">
+            <label for="rut">Día (1-31)</label>
+            <input type="text" name="dia_nac" class="form-control" /> 
+            </div>
+        <div class="form-text">Favor digitar fecha con números</div>
+        </div>
+
+        <!-- ejemplo email name="email"  mb-3-->
+        <div class="mb-3">
+          <label id="email-ingreso" for="exampleInputEmail" class="form-label">Correo electrónico</label>
+          <input type="email" name="email" class="form-control" id="exampleInputEmail" placeholder="Ingresar email" autocomplete="email">
+
+        </div>
+
+       <!-- rut chile 6 números + 8 numero o k style="width:40%"   -->
+       <div class=" row m-1">
+        
+        <div class=" col">
+            <label for="rut">Rut</label>
+            <input type="text" name="rut" class="form-control" /> 
+        </div>
+        
+        <div class="col">
+            <label for="rut2" class="form-label" >Rut digito verificador</label>
+            <select name="rut2" class="form-select" >
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+              <option value="">5</option>   
+              <option value="">6</option>   
+              <option value="">7</option>   
+              <option value="">8</option>   
+              <option value="">9</option>   
+              <option value="">k</option>   
+            </select>
+        </div>
+    
+      </div>
+
+       <!-- region   -->
+        <div class="mb-3">
+            <label for="region" class="form-label" >Región</label>
+            <select name="region" class="form-select">
+              <option value="">Metropolitana</option>
+              <option value="">Antofagasta</option>
+              <option value="">Valparaiso</option>
+              <option value="">Maule</option>
+              <option value="">Ñuble</option>   
+              <option value="">La Araucanía</option>   
+            </select>
+        </div>
+
+       <!-- ciudad   -->
+        <div class="mb-3">
+        <label for="ciudad" class="form-label" >Ciudad</label>
+        <select name="ciudad" class="form-select">
+          <option value="">Santiago</option>
+          <option value="">Valparaiso</option>
+          <option value="">Antofagasta</option>
+          <option value="">Pelluhue</option>
+          <option value="">Temuco</option>   
+          <option value="">Concepción</option>   
+        </select>
+        </div>
+
+       <!-- Tipo de vivienda   -->
+       <div class="mb-3">
+        <label for="tipo_viv" class="form-label" >Tipo Vivienda</label>
+        <select name="tipo_viv" class="form-select">
+          <option value=""> Casa con patio grande</option>
+          <option value=""> Casa con patio pequeño</option>
+          <option value=""> Casa sin patio</option>
+          <option value=""> Departamento</option>
+        </select>
+        </div>
+
+      <!-- Botón de aceptar y enviar datos -->
+        <button type="submit" class="btn btn-primary">Enviar datos!</button>
+        <button type="reset" class="btn btn-outline-secondary">Cancelar</button>
+      </form>
+
+
+
+
+    </div>
+    <div class="col-md card border-bootstrap box-shadow mb-4">
+    Instrucciones para el llenado del documento.
+    </div>
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+<!--1- Footer + info  -->
+<nav class="navbar navbar-expand-sm bg-dark" style="margin: 20px 0px 20px 0px;">
+
+    <div class="container-fluid">
+      <!--Logo -->
+      <div class="navbar-nav">
+        <div class="nav-item">
+            <img  src="assets/logo_gatunos2.png" style="width: 50px; height:50px;" alt="logo_imagen" title="Click aquí para volver a home"> 
+        </div>
+        <div class="nav-item">
+            <img  src="assets/gatunos_texto_logo.png" style=" height:50px;" alt="logo_nombre" title="Click aquí para volver a home"> 
+        </div>
+
+      <!-- Links -->
+      <div class="nav-item">
+        <a class="nav-link" style="margin: 10px 10px 10px 10px; border: solid #32a1ce; padding: 0px ;" href="#"> Sitio creado usando HTML, CSS JS. 
+        </a>
+      </div>
+
+      <!-- Links -->
+      <div class="nav-item">
+        <a class="nav-link" style="margin: 10px 10px 10px 10px; border: solid #32a1ce; padding: 0px ;" href="#"> CSS: Bootstrap. JS: Jquery
+        </a>
+      </div>
+      
+      <!-- Links -->
+      <div class="nav-item">
+        <a class="nav-link" style="margin: 10px 10px 10px 10px; border: solid #32a1ce; padding: 0px ;" href="#"> Licencia: AAA 
+        </a>
+      </div>
+
+      </div>
+    </div>
+</nav>
+
+
+
+
+
+
+
+    <!-- Cargar Jquery -->
+    <script src="js_jquery/jquery-3.6.0.min.js"></script>  
+    <!-- Cargar jquery validation addon -->
+    <script src="js_jquery_validation/dist/jquery.validate.min.js"></script> 
+
+     <!-- Cargar mod direction aware addon (galeria imagenes) -->
+     <script src="direction_aware_mit/DirectionAwareHoverEffect-master/js/modernizr.custom.97074.js"></script>
+
+    <!--  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>   -->
+    <script type="text/javascript" src="direction_aware_mit/DirectionAwareHoverEffect-master/js/jquery.hoverdir.js" ></script>
+
+    <!--  cargar Bootstrap JS   -->
+    <script src="js_bootstrap/bootstrap.min.js"></script>
+
+    <!-- Cargar script que usa js jquery -->
+    <script src="scripts/script03.js" ></script>
+
+    <!-- Cargar script formulario -->
+    <script src="scripts/formulario03.js" ></script>
+
+
+</body>
+</html>
